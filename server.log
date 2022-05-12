@@ -35,3 +35,43 @@ Action:
 
 Consider defining a bean of type 'org.springframework.web.servlet.config.annotation.InterceptorRegistry' in your configuration.
 
+2022-05-12 21:38:46.446  INFO 23328 --- [restartedMain] tRedisHmdpLoginBasedOnSessionApplication : Starting SpringBootRedisHmdpLoginBasedOnSessionApplication using Java 16.0.2 on mao with PID 23328 (H:\程序\大三下期\spring_boot_redis_hmdp_基于session实现短信登录\target\classes started by mao in H:\程序\大三下期\spring_boot_redis_hmdp_基于session实现短信登录)
+2022-05-12 21:38:46.447 DEBUG 23328 --- [restartedMain] tRedisHmdpLoginBasedOnSessionApplication : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-12 21:38:46.447  INFO 23328 --- [restartedMain] tRedisHmdpLoginBasedOnSessionApplication : The following 1 profile is active: "dev"
+2022-05-12 21:38:46.480  INFO 23328 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-12 21:38:46.480  INFO 23328 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-12 21:38:46.999  INFO 23328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-12 21:38:47.002  INFO 23328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-12 21:38:47.028  INFO 23328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2022-05-12 21:38:47.473  INFO 23328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-05-12 21:38:47.481  INFO 23328 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-12 21:38:47.481  INFO 23328 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-12 21:38:47.545  INFO 23328 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-12 21:38:47.545  INFO 23328 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1064 ms
+2022-05-12 21:38:47.619  INFO 23328 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-12 21:38:47.715  INFO 23328 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-05-12 21:38:48.720  INFO 23328 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-12 21:38:48.767  INFO 23328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-05-12 21:38:48.779  INFO 23328 --- [restartedMain] tRedisHmdpLoginBasedOnSessionApplication : Started SpringBootRedisHmdpLoginBasedOnSessionApplication in 2.701 seconds (JVM running for 3.235)
+2022-05-12 21:39:41.894  INFO 23328 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-05-12 21:39:41.894  INFO 23328 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-05-12 21:39:56.097  INFO 2384 --- [restartedMain] tRedisHmdpLoginBasedOnSessionApplication : Starting SpringBootRedisHmdpLoginBasedOnSessionApplication using Java 16.0.2 on mao with PID 2384 (H:\程序\大三下期\spring_boot_redis_hmdp_基于session实现短信登录\target\classes started by mao in H:\程序\大三下期\spring_boot_redis_hmdp_基于session实现短信登录)
+2022-05-12 21:39:56.097 DEBUG 2384 --- [restartedMain] tRedisHmdpLoginBasedOnSessionApplication : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-12 21:39:56.098  INFO 2384 --- [restartedMain] tRedisHmdpLoginBasedOnSessionApplication : The following 1 profile is active: "dev"
+2022-05-12 21:39:56.130  INFO 2384 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-12 21:39:56.131  INFO 2384 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-12 21:39:56.625  INFO 2384 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-12 21:39:56.626  INFO 2384 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-12 21:39:56.647  INFO 2384 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2022-05-12 21:39:57.082  INFO 2384 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-05-12 21:39:57.089  INFO 2384 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-12 21:39:57.089  INFO 2384 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-12 21:39:57.155  INFO 2384 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-12 21:39:57.156  INFO 2384 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1025 ms
+2022-05-12 21:39:57.228  INFO 2384 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-12 21:39:57.324  INFO 2384 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-05-12 21:39:58.281  INFO 2384 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-12 21:39:58.323  INFO 2384 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-05-12 21:39:58.333  INFO 2384 --- [restartedMain] tRedisHmdpLoginBasedOnSessionApplication : Started SpringBootRedisHmdpLoginBasedOnSessionApplication in 2.553 seconds (JVM running for 3.093)
+2022-05-12 21:40:05.541  INFO 2384 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-05-12 21:40:05.542  INFO 2384 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed

@@ -10,7 +10,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 /**
  * Project name(项目名称)：spring_boot_redis_hmdp_login_based_on_session
  * Package(包名): mao.spring_boot_redis_hmdp.config
- * Class(类名): MvcConfiguration
+ * Class(类名): SpringMvcConfiguration
  * Author(作者）: mao
  * Author QQ：1296193245
  * GitHub：https://github.com/maomao124/
@@ -21,7 +21,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
  */
 
 @Configuration
-public class MvcConfiguration implements WebMvcConfigurer
+public class SpringMvcConfiguration implements WebMvcConfigurer
 {
     @Override
     public void addInterceptors(InterceptorRegistry registry)
