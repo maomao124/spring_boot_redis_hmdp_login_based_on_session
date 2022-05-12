@@ -1,0 +1,37 @@
+2022-05-12 21:33:53.706  INFO 23068 --- [restartedMain] tRedisHmdpLoginBasedOnSessionApplication : Starting SpringBootRedisHmdpLoginBasedOnSessionApplication using Java 16.0.2 on mao with PID 23068 (H:\程序\大三下期\spring_boot_redis_hmdp_基于session实现短信登录\target\classes started by mao in H:\程序\大三下期\spring_boot_redis_hmdp_基于session实现短信登录)
+2022-05-12 21:33:53.707 DEBUG 23068 --- [restartedMain] tRedisHmdpLoginBasedOnSessionApplication : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-12 21:33:53.708  INFO 23068 --- [restartedMain] tRedisHmdpLoginBasedOnSessionApplication : The following 1 profile is active: "dev"
+2022-05-12 21:33:53.741  INFO 23068 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-12 21:33:53.742  INFO 23068 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-12 21:33:54.234  INFO 23068 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-12 21:33:54.236  INFO 23068 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-12 21:33:54.258  INFO 23068 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2022-05-12 21:33:54.678  INFO 23068 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-05-12 21:33:54.685  INFO 23068 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-12 21:33:54.685  INFO 23068 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-12 21:33:54.751  INFO 23068 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-12 21:33:54.751  INFO 23068 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1009 ms
+2022-05-12 21:33:54.821  INFO 23068 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-12 21:33:54.919  INFO 23068 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-05-12 21:33:55.441  WARN 23068 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'addInterceptors' defined in class path resource [mao/spring_boot_redis_hmdp/config/MvcConfiguration.class]: Unsatisfied dependency expressed through method 'addInterceptors' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.web.servlet.config.annotation.InterceptorRegistry' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2022-05-12 21:33:55.442  INFO 23068 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-05-12 21:33:55.443  INFO 23068 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-05-12 21:33:55.445  INFO 23068 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-05-12 21:33:55.457  INFO 23068 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-12 21:33:55.470 ERROR 23068 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method addInterceptors in mao.spring_boot_redis_hmdp.config.MvcConfiguration required a bean of type 'org.springframework.web.servlet.config.annotation.InterceptorRegistry' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.web.servlet.config.annotation.InterceptorRegistry' in your configuration.
+
